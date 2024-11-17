@@ -37,9 +37,10 @@ const App = () => {
             <button className='button_calculator'>%</button>
           </div>
           <div className='row'>
-            <button className='button_calculator_0'>0</button>
+          <button className='button_calculator' id='clear_button'>C</button>
+            <button className='button_calculator'>0</button>
             <button className='button_calculator'>.</button>
-            <button className='button_calculator'>CLS</button>
+            <button className='button_calculator' id='equal_button'>=</button>
           </div>
         </div>
       </div>

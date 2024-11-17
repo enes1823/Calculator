@@ -1,8 +1,9 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-size: 20px;
   text-align: center;
+  user-select: none;
+  font-size: 17px;
 }
 .content {
   display: flex;
@@ -18,9 +19,8 @@
   width: 40px;
   height: 40px;
 }
-.button_calculator_0 {
-  width: 80px;
-  height: 40px;
+.button_calculator:hover {
+  background-color: lightskyblue;
 }
 .score {
   text-align: center;
@@ -33,4 +33,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#clear_button {
+  background-color: lightcoral;
+  border: 1px solid black;
+}
+#clear_button:hover {
+  background-color: lightskyblue;
+}
+#equal_button {
+  background-color: lightgreen;
+  border: 1px solid black;
+}
+#equal_button:hover {
+  background-color: lightskyblue;
 }
