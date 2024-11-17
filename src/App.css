@@ -1,4 +1,35 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-size: 20px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.button_calculator {
+  width: 40px;
+  height: 40px;
+}
+.button_calculator_0 {
+  width: 120px;
+  height: 40px;
+}
+.score {
+  text-align: center;
+  background-color: lightgray;
+  border: 1px solid black;
+  height: 30px;
+  width: 160px;
+}
+.calculator_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
