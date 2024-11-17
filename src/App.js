@@ -1,11 +1,15 @@
 import './App.css';
+import { useState } from 'react';
 
 const App = () => {
+
+  const [result, setResult] = useState(0);
+
   return (
     <div className='content'>
       <div className='calculator_body'>
         <div className='calculator_header'>
-         <h1 className='score'>0</h1>
+         <h1 className='score'>{result}</h1>
         </div>
         <div className='calculator_bottom'>
           <div className='row'>
@@ -35,6 +39,7 @@ const App = () => {
           <div className='row'>
             <button className='button_calculator_0'>0</button>
             <button className='button_calculator'>.</button>
+            <button className='button_calculator'>CLS</button>
           </div>
         </div>
       </div>
