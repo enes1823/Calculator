@@ -22,7 +22,8 @@
 .button_calculator:hover {
   background-color: lightskyblue;
 }
-.score {
+.result {
+  font-weight: 450;
   text-align: center;
   background-color: lightgray;
   border: 1px solid black;
@@ -47,4 +48,7 @@
 }
 #equal_button:hover {
   background-color: lightskyblue;
+}
+#zero_button {
+  width: 80px;
 }

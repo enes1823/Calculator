@@ -9,7 +9,7 @@ const App = () => {
     <div className='content'>
       <div className='calculator_body'>
         <div className='calculator_header'>
-         <h1 className='score'>{result}</h1>
+         <h1 className='result'>{result}</h1>
         </div>
         <div className='calculator_bottom'>
           <div className='row'>
@@ -38,8 +38,7 @@ const App = () => {
           </div>
           <div className='row'>
           <button className='button_calculator' id='clear_button'>C</button>
-            <button className='button_calculator'>0</button>
-            <button className='button_calculator'>.</button>
+            <button className='button_calculator' id='zero_button'>0</button>
             <button className='button_calculator' id='equal_button'>=</button>
           </div>
         </div>
