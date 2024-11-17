@@ -19,26 +19,26 @@ const App = () => {
             <button className='button_calculator'>/</button>
           </div>
           <div className='row'>
-            <button className='button_calculator'>7</button>
-            <button className='button_calculator'>8</button>
-            <button className='button_calculator'>9</button>
+            <button className='button_calculator_number'>7</button>
+            <button className='button_calculator_number'>8</button>
+            <button className='button_calculator_number'>9</button>
             <button className='button_calculator'>√</button>
           </div>
           <div className='row'>
-            <button className='button_calculator'>4</button>
-            <button className='button_calculator'>5</button>
-            <button className='button_calculator'>6</button>
+            <button className='button_calculator_number'>4</button>
+            <button className='button_calculator_number'>5</button>
+            <button className='button_calculator_number'>6</button>
             <button className='button_calculator'>^</button>
           </div>
           <div className='row'>
-            <button className='button_calculator'>1</button>
-            <button className='button_calculator'>2</button>
-            <button className='button_calculator'>3</button>
+            <button className='button_calculator_number'>1</button>
+            <button className='button_calculator_number'>2</button>
+            <button className='button_calculator_number'>3</button>
             <button className='button_calculator'>%</button>
           </div>
           <div className='row'>
           <button className='button_calculator' id='clear_button'>C</button>
-            <button className='button_calculator' id='zero_button'>0</button>
+            <button className='button_calculator_number' id='zero_button'>0</button>
             <button className='button_calculator' id='equal_button'>=</button>
           </div>
         </div>

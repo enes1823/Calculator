@@ -52,3 +52,11 @@
 #zero_button {
   width: 80px;
 }
+.button_calculator_number {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+.button_calculator_number:hover {
+  background-color: lightskyblue;
+}
